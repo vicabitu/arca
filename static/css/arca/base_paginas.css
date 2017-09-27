@@ -8,8 +8,32 @@ body {
   }
 }
 
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
 .pagination {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+.navbar-brand {
+    font-family: "Kaushan Script";
+    color: #fed136;
+}
+
+.navbar-brand:hover{
+    color: #fed136;
+}
+
+#mainNav {
+  background-color: #689F38; }
+
+#navbarDropdownPortfolio {
+    color: #ffffff;
+}
+
+.page-link {
+    color: #000000;
 }
 
 footer {
@@ -46,3 +70,11 @@ ul.social-buttons {
     background-color: #222222; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
       background-color: #fed136; }
+
+.terminos{
+    color: #fed136;
+}
+
+.terminos:hover{
+    color: #fed136;
+}
