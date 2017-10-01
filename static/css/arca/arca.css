@@ -79,9 +79,9 @@ body {
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #fec503; }
   #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 90%;
+    font-size: 89%;
     font-weight: 400;
-    padding: 0.75em 0;
+    padding: 0.75em 0; /*0.75em 0;*/
     letter-spacing: 1px;
     color: white;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -99,12 +99,12 @@ body {
     border: none;
     background-color: transparent; }
     #mainNav .navbar-brand {
-      font-size: 1.75em;
+      font-size: 1.75em; /*1.75em;*/
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
-      transition: all 0.3s; }
+  transition: all 0.3s; }
     #mainNav .navbar-nav .nav-item .nav-link {
-      padding: 1.1em 1em !important; }
+      padding: 1.1em 1em !important; } /*1.1em 1em !important;*/
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
@@ -462,9 +462,9 @@ header.masthead {
   pointer-events: none;
 }
 
-section#contact {
-  background-color: #222222; /*#222222;*/
-  background-image: url("/static/images/diamante.jpg");
+/*section#contact {
+  background-color: #fed136; /*#222222;
+  background-image: url("/static/images/iguana_verde_4.jpg");
   background-repeat: no-repeat;
   background-position: center; }
   section#contact .section-heading {
@@ -477,7 +477,7 @@ section#contact {
     section#contact .form-group input.form-control {
       height: auto; }
     section#contact .form-group textarea.form-control {
-      height: 236px; }
+      height: 236px; } /*236px;
   section#contact .form-control:focus {
     border-color: #fed136;
     box-shadow: none; }
@@ -489,13 +489,13 @@ section#contact {
   section#contact :-moz-placeholder {
     font-weight: 700;
     color: #eeeeee;
-    /* Firefox 18- */
+    /* Firefox 18-
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   section#contact ::-moz-placeholder {
     font-weight: 700;
     color: #eeeeee;
-    /* Firefox 19+ */
+    /* Firefox 19+
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   section#contact :-ms-input-placeholder {
@@ -504,7 +504,7 @@ section#contact {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   section#contact .text-danger {
-    color: #e74c3c; }
+    color: #e74c3c; }*/
 
 footer {
   padding: 25px 0;
