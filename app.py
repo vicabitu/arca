@@ -18,6 +18,18 @@ def mostrar_aves():
 def mostrar_tortugas():
     return render_template('/mascotas/tortugas/tortugas.html')
 
+@app.route('/peces')
+def mostrar_peces():
+    return render_template('/mascotas/peces/peces.html')
+
+@app.route('/reptiles')
+def mostrar_reptiles():
+    return render_template('/mascotas/reptiles/reptiles.html')
+
+@app.route('/conejos')
+def mostrar_conejos():
+    return render_template('/mascotas/conejos/conejos.html')
+
 #route productos
 
 @app.route('/peceras')
