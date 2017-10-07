@@ -32,9 +32,21 @@ def mostrar_conejos():
 
 #route productos
 
+@app.route('/jaulas')
+def mostrar_jaulas():
+    return render_template('/productos/jaulas/jaulas.html')
+
 @app.route('/peceras')
 def mostrar_peceras():
-    return render_template('/productos/peceras.html')
+    return render_template('/productos/peceras/peceras.html')
+
+@app.route('/alimento')
+def mostrar_alimento():
+    return render_template('/productos/alimento/alimento.html')
+
+@app.route('/accesorios')
+def mostrar_accesorios():
+    return render_template('/productos/accesorios/accesorios.html')
 
 
 if __name__ == '__main__':
